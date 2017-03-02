@@ -280,6 +280,14 @@ sonosProxy.playStation = function(room, service, station) {
     return playContent(room, service, this.ContentType.Station, station);
 };
 
+sonosProxy.tuneinPlay = function(room, content) {
+    var room = encodeURIComponent(room);
+    var content = encodeURIComponent(content);
+    var path = `/${room}/tunein/play/${content}`;
+
+    return makeCall(path);
+};
+
 sonosProxy.pandoraPlay = function(room, content) {
     var room = encodeURIComponent(room);
     var content = encodeURIComponent(content);
