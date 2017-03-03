@@ -1,7 +1,7 @@
 {
     "test": {
       "players": [
-        { "roomName": "Master Bedroom", "volume": 30}
+        { "roomName": "Fitness Room", "volume": 30}
       ],
       "state": "PLAYING",
       "favorite": "Rock",
@@ -11,11 +11,11 @@
     },
    "rap": {
       "players": [
-        { "roomName": "Dining Room", "volume": 30},
+        { "roomName": "Bath Room", "volume": 30},
         { "roomName": "Living Room", "volume": 30},
-        { "roomName": "Master Bedroom", "volume": 30},
-        { "roomName": "Kitchen5", "volume": 40},
-        { "roomName": "KitchenWall", "volume": 50}
+        { "roomName": "Ismays Room", "volume": 30},
+        { "roomName": "Fitness Room", "volume": 40},
+        { "roomName": "Sauna", "volume": 50}
       ],
       "state": "PLAYING",
       "favorite": "Rap",
@@ -25,11 +25,11 @@
     },
     "pop rap": {
       "players": [
-        { "roomName": "Dining Room", "volume": 30},
+        { "roomName": "Bath Room", "volume": 30},
         { "roomName": "Living Room", "volume": 30},
-        { "roomName": "Master Bedroom", "volume": 30},
-        {"roomName": "Kitchen5", "volume": 40},
-        {"roomName": "KitchenWall", "volume": 50}
+        { "roomName": "Ismays Room", "volume": 30},
+        { "roomName": "Fitness Room", "volume": 40},
+        { "roomName": "Sauna", "volume": 50}
       ],
       "state": "PLAYING",
       "favorite": "Rap (Pop)",
@@ -39,11 +39,11 @@
     },
     "rock": {
       "players": [
-        { "roomName": "Dining Room", "volume": 30},
+        { "roomName": "Bath Room", "volume": 30},
         { "roomName": "Living Room", "volume": 30},
-        {"roomName": "Kitchen5", "volume": 40},
-        { "roomName": "Master Bedroom", "volume": 30},
-        {"roomName": "KitchenWall", "volume": 50}
+        { "roomName": "Ismays Room", "volume": 30},
+        { "roomName": "Fitness Room", "volume": 40},
+        { "roomName": "Sauna", "volume": 50}
       ],
       "state": "PLAYING",
       "favorite": "Rock",
