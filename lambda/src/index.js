@@ -488,7 +488,7 @@ function changeCurrent(echoId, room, service, onCompleteFn) {
             values = {":r":room};
         } else if (!isBlank(service)) {
             updateExpression = "set currentMusicService=:s";
-            values = {":s":service};
+            values = {":s":service.toLowerCase()};
         }
         if (updateExpression !== '') {
             var docClient = new AWS.DynamoDB.DocumentClient();
