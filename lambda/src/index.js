@@ -482,7 +482,7 @@ function changeCurrent(echoId, room, service, onCompleteFn) {
     if (options.advancedMode) {
         if (!isBlank(room) && !isBlank(service)) {
             updateExpression = "set currentRoom=:r, currentMusicService=:s";
-            values = {":r":room, ":s":service};
+            values = {":r":room, ":s":service.toLowerCase()};
         } else if (!isBlank(room)) {
             updateExpression = "set currentRoom=:r";
             values = {":r":room};
